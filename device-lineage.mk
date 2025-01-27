@@ -52,3 +52,6 @@ PRODUCT_PACKAGES += \
 # Wi-Fi
 PRODUCT_PACKAGES += \
     libwifi-hal-ctrl:64
+
+#PRODUCT_HOST_PACKAGES += \
+       libartpalette
