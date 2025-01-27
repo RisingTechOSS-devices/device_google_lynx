@@ -20,6 +20,10 @@ PRODUCT_PACKAGES += \
 # PixelParts
 -include packages/apps/PixelParts/device.mk
 
+# IWLAN
+PRODUCT_PACKAGES += \
+    Iwlan
+
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
 
